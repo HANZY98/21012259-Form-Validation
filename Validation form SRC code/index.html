@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/674d7cf3e3.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Register Account</h2>
+    </div>
+    <form class="form" id="form">
+      <div class="form-control">
+        <label>First Name</label>
+        <input type="text" placeholder="Luke" id="firstname">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Last Name</label>
+        <input type="text" placeholder="Hands" id="lastname">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Gender</label>
+        <input type="text" placeholder="Female" id="gender">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Date Of Birth</label>
+        <input type="text" placeholder="31/12/1998" id="dob">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Age</label>
+        <input type="text" placeholder="23" id="age">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label>Course Type</label>
+        <select id="course" name="course">
+          <option value="volvo">DataBases</option>
+          <option value="saab">Websites</option>
+          <option value="fiat">Networks</option>
+        </select>
+      </div>
+      <div class="form-control">
+        <label>Date of Registration</label>
+        <input type="text" placeholder="31/12/1998" id="datereg">
+        <i class="fas fa-check-circle"></i>
+        <i class="fas fa-exclamation-circle"></i>
+        <small>Error Message</small>
+      </div>
+
+      <button class="submit" id="submit">Submit Form</button>
+      <button class="clear" id="clear">Clear Form</button>
+      <button class="back" id="back">Back/Home</button>
+    </form>
+  </div>
+  <script src="main.js"></script> 
+</body>
+</html>
